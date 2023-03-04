@@ -15,6 +15,6 @@ class NNLayer:
         :param number_of_neurons: number of neurons in the layer
         :param hidden: specifies whether the layer is hidden or not
         """
-        self._num_of_weights = num_of_weights
-        self._num_of_neurons = number_of_neurons
-        self._hidden = hidden
+        self._num_of_weights: int = num_of_weights
+        self._num_of_neurons: int = number_of_neurons
+        self._hidden: bool = hidden

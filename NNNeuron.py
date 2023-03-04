@@ -12,5 +12,5 @@ class NNNeuron:
         Constructor for creating a neuron of the ANN.
         :param num_of_weights: number of weights that the neuron has
         """
-        self._num_of_weights = num_of_weights
-        self._weights = []
+        self._num_of_weights: int = num_of_weights
+        self._weights: [] = []
